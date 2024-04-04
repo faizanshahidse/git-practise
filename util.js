@@ -13,3 +13,7 @@ const string = "faizan";
 const result = reverseString(string);
 
 console.log("reverse string: ", result);
+
+function testing() {
+  console.log("testing.....");
+}
