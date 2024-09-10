@@ -3,8 +3,6 @@ function reverseString(str) {
   const name = "faizan";
   const strLength = str.length;
 
-  console.log("str length: ", strLength);
-
   for (let i = strLength - 1; i >= 0; i--) {
     reverseStr += str[i];
   }
@@ -15,3 +13,7 @@ const string = "faizan";
 const result = reverseString(string);
 
 console.log("reverse string: ", result);
+
+function testing() {
+  console.log("testing.....");
+}
